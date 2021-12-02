@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title="My Templates Admin App" searchBar={true}/>
+      <Header title="MR Project Admin App" searchBar={true}/>
       <AddTemplate/>
       <Templates templates = {templates}/>
       <Footer/>
